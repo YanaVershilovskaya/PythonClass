@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PythonClass — учебный сайт по основам программирования на Python для 8 класса. Изучи переменные, циклы, функции и проверь знания на практике.">
+  <title>PythonClass — программирование на Python для 8 класса</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="PythonClass — на главную">
+        <span class="brand-symbol" aria-hidden="true">{ }</span>
+        <span>python<span class="brand-accent">class</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Главное меню">
+        <ul>
+          <li><a href="#basics">Основы</a></li>
+          <li><a href="#operations">Конструкции</a></li>
+          <li><a href="#trainer">Практика</a></li>
+          <li><a href="#quiz">Проверь себя</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Включить тёмную тему" aria-pressed="false" title="Сменить тему">
+        <span class="theme-icon" aria-hidden="true">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Интерактивный курс информатики для 8 класса</p>
+          <h1 id="hero-title">Python — это <span>легко и интересно.</span></h1>
+          <p class="hero-description">Научись работать с переменными, циклами и функциями. Пиши свой первый код, запускай примеры и проверяй знания на практике.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#operations">Изучить конструкции <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#trainer">Попробовать код <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-quickfacts" aria-label="Возможности сайта">
+            <span><span class="quickfact-symbol">✓</span> 6 тем</span>
+            <span><span class="quickfact-symbol">✓</span> Живые примеры</span>
+            <span><span class="quickfact-symbol">✓</span> Тест на 8 вопросов</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Пример кода на Python">
+          <div class="visual-header"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>main.py</span><span class="visual-live">● python</span></div>
+          <div class="circuit-area">
+            <div class="circuit-inputs"><span class="circuit-node">x <strong>10</strong></span><span class="circuit-node">y <strong>5</strong></span></div>
+            <div class="circuit-wires" aria-hidden="true"><span></span><span></span></div>
+            <div class="circuit-gate">+<small>sum</small></div>
+            <div class="circuit-output"><span class="circuit-arrow" aria-hidden="true">⟶</span><span class="output-node">15</span></div>
+          </div>
+          <div class="visual-bottom"><span>x + y</span><span class="visual-badge">result</span></div>
+          <div class="floating-sticker">10 + 5 = 15 <span>✦</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section basics" id="basics" aria-labelledby="basics-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-kicker">01 / Начинаем с главного</p><h2 id="basics-title">Что такое Python?</h2></div>
+          <p>Python — современный язык программирования с простым синтаксисом. Его используют для создания сайтов, игр, анализа данных и искусственного интеллекта.</p>
+        </div>
+        <div class="basics-grid">
+          <article class="info-card"><span class="info-icon info-blue" aria-hidden="true">01</span><h3>Переменные</h3><p>Хранят данные: числа, текст, списки. Создаются просто: пиши имя и значение.</p><div class="example-inline">name = "Иван" <strong class="truth-yes">→ str</strong></div></article>
+          <article class="info-card"><span class="info-icon info-purple" aria-hidden="true">02</span><h3>Типы данных</h3><p>В Python есть целые числа <strong>int</strong>, дробные <strong>float</strong>, строки <strong>str</strong> и списки <strong>list</strong>.</p><div class="example-inline">42 <span class="dot-divider">·</span> 3.14 <span class="dot-divider">·</span> "текст"</div></article>
+          <article class="info-card"><span class="info-icon info-mint" aria-hidden="true">03</span><h3>Синтаксис</h3><p>Python понимает отступы — они показывают, где начинается и заканчивается блок кода.</p><div class="example-inline">4 пробела = 1 уровень</div></article>
+        </div>
+        <aside class="note-bar"><span aria-hidden="true">💡</span><p><strong>Попробуй:</strong> открой любой редактор кода или онлайн-консоль Python и напиши <code>print("Привет, мир!")</code>. Это твоя первая программа!</p></aside>
+      </div>
+    </section>
+
+    <section class="section operations-section" id="operations" aria-labelledby="operations-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-kicker">02 / Изучи основы</p><h2 id="operations-title">Шесть ключевых конструкций Python</h2></div>
+          <p>Каждая конструкция решает свою задачу. Ищи по названию, тексту или тегам, раскрывай примеры кода и отмечай понравившиеся темы.</p>
+        </div>
+        <div class="operations-layout">
+          <div class="operations-content">
+            <div class="search-wrap">
+              <label class="search-box" for="searchInput">
+                <span aria-hidden="true">⌕</span>
+                <input id="searchInput" type="search" placeholder="Поиск по названию, примерам или тегам…" autocomplete="off">
+                <span class="search-hint">поиск</span>
+              </label>
+              <span id="search-count" class="search-count" aria-live="polite">Показано: 6 из 6</span>
+            </div>
+            <div class="operations-grid" id="postsContainer"></div>
+            <p id="no-results" class="empty-state" hidden>Ничего не найдено. Попробуй «переменные», «цикл», «функция» или «список».</p>
+          </div>
+          <aside class="operations-sidebar" aria-labelledby="sidebar-title">
+            <div class="sidebar-card">
+              <span class="sidebar-label">ПОДСКАЗКА</span>
+              <h3 id="sidebar-title">Как писать правильный код?</h3>
+              <ol class="sidebar-steps">
+                <li><span>01</span><p>Используй отступы — 4 пробела для блока.</p></li>
+                <li><span>02</span><p>Давай переменным понятные имена.</p></li>
+                <li><span>03</span><p>Проверяй код на ошибки пошагово.</p></li>
+              </ol>
+              <a href="#trainer" class="sidebar-link">Практика в редакторе →</a>
+            </div>
+            <div class="sidebar-card sidebar-example">
+              <span class="sidebar-label">БЫСТРЫЙ ПРИМЕР</span>
+              <h3>В чём разница между циклами?</h3>
+              <p>Цикл for проходит по элементам:</p>
+              <div class="sidebar-formula"><span>for i in range(3)</span><strong>0,1,2</strong></div>
+              <div class="sidebar-formula"><span>while x &lt; 3</span><strong>пока истина</strong></div>
+              <p class="sidebar-caption">for знает сколько раз, while работает до условия.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section trainer-section" id="trainer" aria-labelledby="trainer-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-kicker">03 / Практика</p><h2 id="trainer-title">Интерактивный редактор кода</h2></div>
+          <p>Меняй значения переменных, выбирай операцию и сразу смотри результат выполнения Python-кода.</p>
+        </div>
+        <div class="trainer-layout">
+          <div class="trainer-panel">
+            <div class="panel-heading"><div><span class="panel-subtitle">PYTHON КАЛЬКУЛЯТОР</span><h3>Попробуй код</h3></div><span class="panel-deco" aria-hidden="true">{ py }</span></div>
+            <label class="field-label" for="operator-select">Операция</label>
+            <select id="operator-select" class="operator-select">
+              <option value="and">Сложение (+)</option>
+              <option value="or">Вычитание (−)</option>
+              <option value="not">Умножение (×)</option>
+              <option value="xor">Деление (/)</option>
+              <option value="implies">Степень (**)</option>
+              <option value="equiv">Остаток (%)</option>
+            </select>
+            <div class="variable-row">
+              <div class="variable-control"><span class="variable-name">x <small>первое число</small></span><button type="button" class="bit-toggle" id="value-a" aria-label="Изменить значение x" aria-pressed="true"><span class="bit-light"></span><strong>10</strong><span class="bit-change">изменить ↻</span></button></div>
+              <div class="variable-control" id="variable-b"><span class="variable-name">y <small>второе число</small></span><button type="button" class="bit-toggle is-zero" id="value-b" aria-label="Изменить значение y" aria-pressed="false"><span class="bit-light"></span><strong>5</strong><span class="bit-change">изменить ↻</span></button></div>
+            </div>
+            <div class="result-panel" aria-live="polite"><div><span class="result-caption">КОД</span><strong class="result-expression" id="result-expression">x + y</strong></div><div class="result-equals" aria-hidden="true">=</div><div class="result-box"><span>РЕЗУЛЬТАТ</span><strong id="result-value">15</strong></div></div>
+            <p class="result-explanation" id="result-explanation">Сложение: складываем два числа и получаем их сумму.</p>
+            <button class="text-button" type="button" id="reset-trainer">↻ Сбросить значения</button>
+          </div>
+          <div class="table-panel"><div class="table-title"><div><span class="panel-subtitle">ПРИМЕРЫ РЕЗУЛЬТАТОВ</span><h3>Таблица значений</h3></div><span class="table-chip">int</span></div>
+            <div class="table-scroll"><table class="truth-table"><caption class="sr-only">Таблица результатов для разных значений переменных</caption><thead><tr><th scope="col">x</th><th scope="col" id="b-heading">y</th><th scope="col" id="result-heading">x + y</th></tr></thead><tbody id="truth-table-body"><tr><td>5</td><td>5</td><td>10</td></tr><tr><td>5</td><td>10</td><td>15</td></tr><tr class="active-row"><td>10</td><td>5</td><td>15</td></tr><tr><td>10</td><td>10</td><td>20</td></tr></tbody></table></div>
+            <div class="table-legend"><span><i class="legend-dot legend-current"></i> Текущие значения</span><span><i class="legend-dot legend-true"></i> Результат</span></div>
+            <aside class="table-tip"><strong>Как работает калькулятор?</strong><p>Строки показывают результат для разных значений x и y. Выделена строка с твоими значениями.</p></aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cheat-section" id="remember" aria-labelledby="remember-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker">04 / Полезно запомнить</p><h2 id="remember-title">Маленькая шпаргалка</h2></div><p>Три важных правила, которые помогут тебе писать правильный Python-код.</p></div>
+        <div class="cheat-grid">
+          <article class="cheat-card"><span class="cheat-number">01</span><h3>Отступы обязательны</h3><p>Python использует отступы для обозначения блоков кода. Один уровень = 4 пробела. Без отступов код не заработает.</p><div class="cheat-formula">if x > 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;print("Да")</div></article>
+          <article class="cheat-card"><span class="cheat-number">02</span><h3>Названия переменных</h3><p>Используй понятные имена: age, name, count. Не начинай с цифры. Пробелы запрещены — используй underscore_style.</p><div class="cheat-formula">user_name = "Иван"</div></article>
+          <article class="cheat-card"><span class="cheat-number">03</span><h3>Комментарии в коде</h3><p>Комментарии начинаются с #. Python их игнорирует. Используй для пояснений.</p><div class="cheat-formula"># Это комментарий</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="quiz" aria-labelledby="quiz-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker">05 / Самопроверка</p><h2 id="quiz-title">Проверь свои знания</h2></div><p>Восемь вопросов по основам Python. Выбирай ответ, проверяй себя и получай итоговый результат.</p></div>
+        <div class="quiz-shell" id="quiz-shell">
+          <div class="quiz-top"><span class="quiz-eyebrow">ТЕСТ ПО PYTHON · 8 ВОПРОСОВ</span><span id="quiz-counter">Вопрос 1 из 8</span></div>
+          <div class="quiz-progress" role="progressbar" aria-label="Прогресс теста" aria-valuemin="0" aria-valuemax="8" aria-valuenow="0"><span id="quiz-progress-bar"></span></div>
+          <div id="quiz-question-screen"><h3 id="quiz-question">Чему равно 10 + 5 в Python?</h3><div class="answer-list" id="quiz-answers" role="group" aria-label="Варианты ответа"></div><p class="quiz-feedback" id="quiz-feedback" aria-live="polite" hidden></p><div class="quiz-actions"><span class="quiz-help">Выбери один вариант ответа</span><button type="button" class="button button-primary" id="quiz-check" disabled>Проверить ответ</button><button type="button" class="button button-primary" id="quiz-next" hidden>Следующий вопрос →</button></div></div>
+          <div id="quiz-result-screen" class="quiz-result-screen" hidden><span class="result-confetti" aria-hidden="true">✦ ✳ ✦</span><h3>Тест завершён!</h3><p class="score-number"><span id="quiz-score">0</span><small> / 8</small></p><p id="quiz-message">Хорошая работа!</p><button type="button" class="button button-primary" id="quiz-restart">Пройти ещё раз ↻</button></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><div><a class="brand footer-brand" href="#top"><span class="brand-symbol" aria-hidden="true">{ }</span><span>python<span class="brand-accent">class</span></span></a><p>Учебный проект по информатике для 8 класса.<br>Основы Python — понятно и на практике.</p></div><div class="footer-right"><span>HTML · CSS · JavaScript</span><a href="#top">Наверх ↑</a></div></div></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
